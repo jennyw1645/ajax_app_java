@@ -15,4 +15,5 @@ public interface PostRepository {
 
   @Insert("insert into posts (content) values (#{content})")
   void insert(PostEntity post);
+
 }
